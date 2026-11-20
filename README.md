@@ -1,4 +1,4 @@
-Blinkit Landing Page
+## Blinkit Landing Page
 
 A frontend landing page inspired by Blinkit, an online grocery delivery platform. The website features a clean layout showcasing grocery products, categories, and quick delivery services.
 
