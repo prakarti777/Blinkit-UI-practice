@@ -1,22 +1,28 @@
-# Blinkit-UI-practice
-# Yucca Packaging Website
+Blinkit Landing Page
 
-A frontend website for a packaging company, designed to showcase products, packaging solutions, and company information through a clean and user-friendly interface.
+A frontend landing page inspired by Blinkit, an online grocery delivery platform. The website features a clean layout showcasing grocery products, categories, and quick delivery services.
 
-## 🚀 Features
+🚀 Features
 
-- Clean and user-friendly website layout.
-- Navigation bar with multiple sections.
-- Dropdown menus for navigation.
-- Product and packaging solution sections.
-- Hover effects and smooth transitions.
-- Interactive card flip effects using CSS.
-- Structured footer section.
+Blinkit-inspired homepage design.
 
-## 🛠️ Technologies Used
+Navigation bar with logo, delivery information, and sign-in section.
 
-- HTML5
-- CSS3
+Grocery categories and product sections.
+
+Product cards with images and pricing.
+
+Promotional banners and offers.
+
+CSS hover effects and styling.
+
+Clean and user-friendly interface.
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3
 
 ## 📸 Screenshots
 
@@ -25,22 +31,20 @@ A frontend website for a packaging company, designed to showcase products, packa
 <img width="1843" height="691" alt="Screenshot 2026-11-20 144613" src="https://github.com/user-attachments/assets/c352c5e6-779b-4d8d-99e3-2c6f26624761" />
 
 
-## 📂 Project Structure
+📂 Project Structure
 
-```text
-Yucca-Packaging-Website/
+Blinkit-Landing-Page/
 │
 ├── index.html
 ├── style.css
 ├── images/
 ├── screenshots/
 │   ├── homepage.png
-│   ├── dropdown.png
-│   ├── products.png
-│   └── footer.png
+│   ├── navbar.png
+│   ├── categories.png
+│   └── products.png
 │
 └── README.md
-```
 
 ## 💻 How to Run
 
@@ -51,6 +55,6 @@ Yucca-Packaging-Website/
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-## 🎯 Objective
+🎯 Objective
 
-To create a visually appealing packaging company website while developing practical skills in HTML structure, CSS styling, layouts, positioning, hover effects, and responsive web design.
+To recreate a grocery delivery platform's landing page and strengthen frontend development skills through HTML structure, CSS layouts, styling, positioning, and hover effects.
