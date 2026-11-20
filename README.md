@@ -2,7 +2,7 @@
 
 A frontend landing page inspired by Blinkit, an online grocery delivery platform. The website features a clean layout showcasing grocery products, categories, and quick delivery services.
 
-🚀 Features
+## 🚀 Features
 
 Blinkit-inspired homepage design.
 
@@ -18,7 +18,7 @@ CSS hover effects and styling.
 
 Clean and user-friendly interface.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 HTML5
 
@@ -31,7 +31,7 @@ CSS3
 <img width="1843" height="691" alt="Screenshot 2026-11-20 144613" src="https://github.com/user-attachments/assets/c352c5e6-779b-4d8d-99e3-2c6f26624761" />
 
 
-📂 Project Structure
+#  📂 Project Structure
 
 Blinkit-Landing-Page/
 │
