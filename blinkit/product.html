@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color:white;
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 97px;
+    background-color: white;
+    padding: 0px 40px;
+     border: 1px solid #e5e5e5;
+}
+
+          .logo img{
+        display: block;
+    width: 100px;
+    height: 80px;
+    }
+      .logo{
+
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .logo span{
+        color:white;
+    }
+
+        .location h3 {
+            font-size: 17px;
+        }
+
+        .location p {
+            font-size: 13px;
+            margin-top: 5px;
+        }
+
+        .search {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .search input {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        .login button,
+        .cart button {
+            padding: 13px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+     
+
+        .cart button {
+            background-color:#ddd;
+            color: white;
+        }
+
+        .products {
+            margin-top: 50px;
+            padding: 30px 40px;
+            padding-bottom: 0%;
+        }
+
+        .section-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .section-heading h1 {
+            font-size: 28px;
+        }
+
+        .section-heading a {
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+        }
+
+      .products-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 15px;
+    row-gap: 10px;
+}
+
+       .product-card {
+    height: 380px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+        .product-image {
+            width: 100%;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .product-card h3 {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+
+        .product-card p {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .product-card button {
+            margin-top: 12px;
+            padding: 9px 18px;
+            background-color: white;
+            color: green;
+            border: 1px solid green;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .product-card button:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="main">
+
+        <div class="logo">
+            <img src="https://imgs.search.brave.com/bsa16v0Cn8H6TODKt103-XCl1jI9sWe34SfGlvOSunE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmdn/YWxsZXJ5LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvYmxpbmtp/dC1sb2dvLTAzLnBu/Zw">
+        </div>
+
+        <div class="location">
+            <h3>Delivery in 10 minutes</h3>
+            <p>Meerut, Uttar Pradesh</p>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search for products">
+        </div>
+
+       
+
+        <div class="cart">
+            <button>Login</button>
+            <button>My Cart</button>
+        </div>
+
+    </nav>
+
+    <section class="products" style="padding-left: 120px ;padding-right: 120px; ">
+
+        <div class="section-heading">
+            <h1>Products</h1>
+            <a href="#">Shop Now</a>
+        </div>
+
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=500" alt="Dry Fruits">
+                </div>
+                <h3>Dry Fruits</h3>
+                <p>₹250</p>
+                <button>Add</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500" alt="Biscuits">
+                </div>
+                <h3>Biscuits</h3>
+                <p>₹50</p>
+                <button>Add</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500" alt="Bread">
+                </div>
+                <h3>Bread</h3>
+                <p>₹40</p>
+                <button>Add</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://imgs.search.brave.com/-bMGyoF3l7VqqGNmMLwoLtvxJY2P9nmqbXm7DutoQxs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTYw/NDg4NTQ4L3Bob3Rv/L2Nhc2hldy1udXRz/LW9uLWEtd29vZGVu/LXRhYmxlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1QdzhZ/SXNnVUFOMnNkRjlM/QlZUbXJVVUMtZDRf/eThmdkRLUEdoeEtS/bVowPQ" alt="Cashew">
+                </div>
+                <h3>Cashew</h3>
+                <p>₹300</p>
+                <button>Add</button>
+            </div>
+
+ <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=500" alt="Dry Fruits">
+                </div>
+                <h3>Dry Fruits</h3>
+                <p>₹250</p>
+                <button>Add</button>
+            </div>
+        </div>
+         
+    </section>
+      <section class="products" style="padding-left: 120px ;padding-right: 120px; ">
+
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=500" alt="Dry Fruits">
+                </div>
+                <h3>Dry Fruits</h3>
+                <p>₹250</p>
+                <button>Add</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500" alt="Biscuits">
+                </div>
+                <h3>Biscuits</h3>
+                <p>₹50</p>
+                <button>Add</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500" alt="Bread">
+                </div>
+                <h3>Bread</h3>
+                <p>₹40</p>
+                <button>Add</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://imgs.search.brave.com/-bMGyoF3l7VqqGNmMLwoLtvxJY2P9nmqbXm7DutoQxs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTYw/NDg4NTQ4L3Bob3Rv/L2Nhc2hldy1udXRz/LW9uLWEtd29vZGVu/LXRhYmxlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1QdzhZ/SXNnVUFOMnNkRjlM/QlZUbXJVVUMtZDRf/eThmdkRLUEdoeEtS/bVowPQ" alt="Cashew">
+                </div>
+                <h3>Cashew</h3>
+                <p>₹300</p>
+                <button>Add</button>
+            </div>
+ <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=500" alt="Dry Fruits">
+                </div>
+                <h3>Dry Fruits</h3>
+                <p>₹250</p>
+                <button>Add</button>
+            </div>
+        </div>
+         
+    </section>
+      <section class="products" style="padding-left: 120px ;padding-right: 120px; padding-bottom: 180px; ">
+
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=500" alt="Dry Fruits">
+                </div>
+                <h3>Dry Fruits</h3>
+                <p>₹250</p>
+                <button>Add</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500" alt="Biscuits">
+                </div>
+                <h3>Biscuits</h3>
+                <p>₹50</p>
+                <button>Add</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500" alt="Bread">
+                </div>
+                <h3>Bread</h3>
+                <p>₹40</p>
+                <button>Add</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://imgs.search.brave.com/-bMGyoF3l7VqqGNmMLwoLtvxJY2P9nmqbXm7DutoQxs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTYw/NDg4NTQ4L3Bob3Rv/L2Nhc2hldy1udXRz/LW9uLWEtd29vZGVu/LXRhYmxlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1QdzhZ/SXNnVUFOMnNkRjlM/QlZUbXJVVUMtZDRf/eThmdkRLUEdoeEtS/bVowPQ" alt="Cashew">
+                </div>
+                <h3>Cashew</h3>
+                <p>₹300</p>
+                <button>Add</button>
+            </div>
+ <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?w=500" alt="Dry Fruits">
+                </div>
+                <h3>Dry Fruits</h3>
+                <p>₹250</p>
+                <button>Add</button>
+            </div>
+        </div>
+         
+    </section>
+
+</body>
+</html>
