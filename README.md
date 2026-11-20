@@ -46,7 +46,7 @@ Yucca-Packaging-Website/
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-link>
+   git clone <https://github.com/prakarti777/Blinkit-UI-practice/tree/main>
    ```
 2. Open the project folder.
 3. Open `index.html` in your browser.
